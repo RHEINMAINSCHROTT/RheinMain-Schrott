@@ -58,12 +58,8 @@
         </div>
 
         <div class="hero-panel reveal delay-1">
-          <div class="photo-frame hero-slideshow" aria-label="Bildergalerie Schrotthandel Stey">
-            <img class="active" src="assets/358167018_5754006964701914_5455560700202197371_n.jpg" alt="Schrottabholung und Metallmaterial" />
-            <img src="assets/362660699_24306642865593316_3976991212995050300_n.jpg" alt="Schrottcontainer und Metallteile" />
-            <img src="assets/366346460_1998146657213659_5200466136719250812_n.jpg" alt="Schrott und Metalleinsatz" />
-            <img src="assets/368655783_1998146763880315_469557448411298159_n.jpg" alt="Metall und Schrottmaterial" />
-            <div class="slide-dots" aria-hidden="true"><span class="active"></span><span></span><span></span><span></span></div>
+          <div class="photo-frame">
+            <img src="assets/358167018_5754006964701914_5455560700202197371_n.jpg" alt="Schrottabholung Fahrzeug und Material" />
           </div>
           <div class="metal-callout">
             <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8c1.7 3.4 3.2 4.9 6.6 6.6l2.2-2.2c.3-.3.8-.4 1.2-.3 1.3.4 2.6.6 4 .6.7 0 1.3.6 1.3 1.3v3.5c0 .7-.6 1.3-1.3 1.3C10.6 21.6 2.4 13.4 2.4 3.4c0-.7.6-1.3 1.3-1.3h3.5c.7 0 1.3.6 1.3 1.3 0 1.4.2 2.7.6 4 .1.4 0 .9-.3 1.2l-2.2 2.2z"/></svg>

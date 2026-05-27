@@ -34,18 +34,3 @@ filterButtons.forEach(button => {
     });
   });
 });
-
-
-const heroSlides = document.querySelectorAll('.hero-slideshow img');
-const heroDots = document.querySelectorAll('.hero-slideshow .slide-dots span');
-if (heroSlides.length > 1) {
-  let currentHeroSlide = 0;
-  const showHeroSlide = (index) => {
-    heroSlides[currentHeroSlide].classList.remove('active');
-    heroDots[currentHeroSlide]?.classList.remove('active');
-    currentHeroSlide = index % heroSlides.length;
-    heroSlides[currentHeroSlide].classList.add('active');
-    heroDots[currentHeroSlide]?.classList.add('active');
-  };
-  setInterval(() => showHeroSlide(currentHeroSlide + 1), 4200);
-}
